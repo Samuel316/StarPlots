@@ -1,0 +1,31 @@
+image: "python:3.7"
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+stages:
+- Analysis
+- Test
+
+flake8:
+  stage: Analysis
+  script:
+  - python -m pip install -e .
+  - python -m pip install flake8 --quiet
+  - flake8 --max-line-length=120 bild/*.py
+
+
+mypy:
+  stage: Analysis
+  script:
+  - python -m pip install -e .
+  - python -m pip install mypy --quiet
+  - mypy -p rates
+
+pytest:
+  stage: Test
+  script:
+  - python -m pip install -e .
+  - python -m pip install pytest --quiet
+  - python -m pip install pytest-cov --quiet
+  - pytest --cov=rates --durations=0 tests/
