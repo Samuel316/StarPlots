@@ -1,71 +1,130 @@
-Star:
-    HE 1327-2326
-    
-Abundance: 
-    X/H:
-        Fe: -6.01
-        Li(UL): -0.43
-        C: -2.22
-        N: -1.73
-        O: -2.57
-        Na: -3.3
-        Mg: -4.06
-        Al: -4.58
-        Ca: -5.08
-        Sc(UL): -4.95
-        Ti: -5.1
-        V(UL): -2.57
-        Cr(UL): -5.38
-        Mn(UL): -4.88
-        Co(UL): -4.68
-        Ni: -5.77
-        Zn(UL): -2.91
-        Sr: -4.74
-        Ba(UL): -4.57
-        Eu(UL): -1.32
-        
-    X/Fe:
-        Li(UL): 5.58
-        C: 3.79
-        N: 4.28
-        O: 3.44
-        Na: 2.71
-        Mg: 1.95
-        Al: 1.43
-        Ca: 0.93
-        Sc(UL): 1.06
-        Ti: 0.91
-        V(UL): 3.44
-        Cr(UL): 0.63
-        Mn(UL): 1.13
-        Co(UL): 1.33
-        Ni: 0.24
-        Zn(UL): 3.1
-        Sr: 1.27
-        Ba(UL): 1.44
-        Eu(UL): 4.69
-        
-    Loge:
-        Li(UL): 0.62
-        C: 6.21
-        N: 6.1
-        O: 6.12
-        Na: 2.94
-        Mg: 3.54
-        Al: 1.87
-        Ca: 1.26
-        Sc(UL): -1.8
-        Ti: 0.15
-        V(UL): 1.36
-        Cr(UL): 0.26
-        Mn(UL): 0.55
-        Co(UL): 0.31
-        Ni: 0.45
-        Zn(UL): 1.65
-        Sr: -1.87
-        Ba(UL): -2.39
-        Eu(UL): -0.8
-        
-        
-        
-        
+Abundance:
+  Loge:
+    Al: 1.87
+    Ba(UL): -2.39
+    C: 6.21
+    Ca: 1.26
+    Co(UL): 0.31
+    Cr(UL): 0.26
+    Eu(UL): -0.8
+    Fe: 1.49
+    Li(UL): 0.62
+    Mg: 3.54
+    Mn(UL): 0.55
+    N: 6.1
+    Na: 2.94
+    Ni: 0.45
+    O: 6.12
+    Sc(UL): -1.8
+    Sr: -1.87
+    Ti: -0.15
+    V(UL): 1.36
+    Zn(UL): 1.65
+  Loge_error:
+    Al: 0.2
+    Ba(UL): 0.2
+    C: 0.2
+    Ca: 0.2
+    Co(UL): 0.2
+    Cr(UL): 0.2
+    Eu(UL): 0.2
+    Fe: 0.2
+    Li(UL): 0.2
+    Mg: 0.2
+    Mn(UL): 0.2
+    N: 0.2
+    Na: 0.2
+    Ni: 0.2
+    O: 0.2
+    Sc(UL): 0.2
+    Sr: 0.2
+    Ti: 0.2
+    V(UL): 0.2
+    Zn(UL): 0.2
+  X/Fe:
+    Al: 1.43
+    Ba(UL): 1.44
+    C: 3.79
+    Ca: 0.93
+    Co(UL): 1.33
+    Cr(UL): 0.63
+    Eu(UL): 4.69
+    Fe: 0.0
+    Li(UL): 5.58
+    Mg: 1.95
+    Mn(UL): 1.13
+    N: 4.28
+    Na: 2.71
+    Ni: 0.24
+    O: 3.44
+    Sc(UL): 1.06
+    Sr: 1.27
+    Ti: 0.91
+    V(UL): 3.44
+    Zn(UL): 3.1
+  X/Fe_error:
+    Al: 0.2
+    Ba(UL): 0.2
+    C: 0.2
+    Ca: 0.2
+    Co(UL): 0.2
+    Cr(UL): 0.2
+    Eu(UL): 0.2
+    Fe: 0.2
+    Li(UL): 0.2
+    Mg: 0.2
+    Mn(UL): 0.2
+    N: 0.2
+    Na: 0.2
+    Ni: 0.2
+    O: 0.2
+    Sc(UL): 0.2
+    Sr: 0.2
+    Ti: 0.2
+    V(UL): 0.2
+    Zn(UL): 0.2
+  X/H:
+    Al: -4.58
+    Ba(UL): -4.57
+    C: -2.22
+    Ca: -5.08
+    Co(UL): -4.68
+    Cr(UL): -5.38
+    Eu(UL): -1.32
+    Fe: -6.01
+    Li(UL): -0.43
+    Mg: -4.06
+    Mn(UL): -4.88
+    N: -1.73
+    Na: -3.3
+    Ni: -5.77
+    O: -2.57
+    Sc(UL): -4.95
+    Sr: -4.74
+    Ti: -5.1
+    V(UL): -2.57
+    Zn(UL): -2.91
+  X/H_error:
+    Al: 0.2
+    Ba(UL): 0.2
+    C: 0.2
+    Ca: 0.2
+    Co(UL): 0.2
+    Cr(UL): 0.2
+    Eu(UL): 0.2
+    Fe: 0.2
+    Li(UL): 0.2
+    Mg: 0.2
+    Mn(UL): 0.2
+    N: 0.2
+    Na: 0.2
+    Ni: 0.2
+    O: 0.2
+    Sc(UL): 0.2
+    Sr: 0.2
+    Ti: 0.2
+    V(UL): 0.2
+    Zn(UL): 0.2
+Jina_ID: 2049
+Ref: FRE08
+Star: HE1327-2326
