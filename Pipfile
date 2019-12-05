@@ -6,6 +6,9 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+PyYAML = "*"
+matplotlib = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.7"
